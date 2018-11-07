@@ -44,4 +44,6 @@ See usage examples in [`examples/examples.ml`](https://github.com/arnarthor/bs-n
 
 ## Credits
 
-This is a fork from [`bs-fetch`](https://github.com/reasonml-community/bs-fetch) with minor modifications for node-fetch. All credits go to the authors of that package.
+The initial bindings are a fork from [`bs-fetch`](https://github.com/reasonml-community/bs-fetch) with minor modifications for node-fetch. Credit to the authors of that package for a great foundation. 
+
+Some minor additions have been made for node-fetch.
