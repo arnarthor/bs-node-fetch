@@ -1,0 +1,33 @@
+{
+  "name": "bs-node-fetch",
+  "version": "0.1.2",
+  "description": "node-fetch bindings for BuckleScript",
+  "scripts": {
+    "build": "bsb -make-world",
+    "start": "bsb -make-world -w",
+    "clean": "bsb -clean-world",
+    "test": "bsb -make-world && node lib/js/examples/examples.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arnarthor/bs-node-fetch.git"
+  },
+  "keywords": [
+    "node-fetch",
+    "fetch",
+    "xhr",
+    "bucklescript"
+  ],
+  "author": "arnar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/arnarthor/bs-node-fetch/issues"
+  },
+  "homepage": "https://github.com/arnarthor/bs-node-fetch#readme",
+  "devDependencies": {
+    "bs-platform": "^4.0.0"
+  },
+  "dependencies": {
+    "node-fetch": "^2.1.2"
+  }
+}
